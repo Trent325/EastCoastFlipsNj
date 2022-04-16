@@ -1,0 +1,144 @@
+
+.introText{
+    width: 100%;
+    height: 50px;
+    display: block;
+    position: relative;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.center1 {
+    margin: auto;
+    width: 50%;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+  }
+
+.ProductContainer{
+    display: block;
+    position: relative;
+    width:100%;
+    height: auto;
+}
+.ProductRow{
+    display: flex;
+    position: relative;
+    gap:10px;
+}
+.ProductHolder{
+    width: 33%;
+    height: 420px;
+    background-color: brown;
+
+}
+
+@media screen and (min-width: 900px) {
+    .ProductHolder{
+        flex:1;
+    }
+    
+}
+
+@media screen and (max-width: 900px) {
+    .ProductHolder{
+        display: block;
+    }
+    
+}
+.ProductImageSlot{
+    width:100%;
+    height:75%;
+    background-color: aqua;
+}
+.ProductImageSlot img{
+    width:100%;
+    height: 100%;
+    
+}
+.ProductDescriptionSlot{
+    width:100%;
+    height:25%;
+    display: flex;
+    background-color: orange;
+}
+.ProductSlotBox{
+    flex:2;
+    width: 75%;
+    height:100%;
+
+}
+.ProductSlotBoxAdd{
+    flex:2;
+    width: 25%;
+    height:100%;
+    text-align: right;
+    margin-right:10px;
+
+}
+h1{
+    font-family: 'Oswald', sans-serif;
+    margin-left: 5px;
+}
+h2{
+    font-family: 'Oswald', sans-serif;
+    margin-left: 5px;
+    padding-bottom: 5px;
+}
+.sectionTitleLine {
+    width: 40px;
+    height: 3px;
+    margin: 0px 20px 20px 0px;
+    background-color: black;
+    
+}
+.AddButton{
+    width:100px;
+    height:70px;
+    background-color: aqua;
+    margin-top: 5%;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    font-size:15px;
+  }
+.spacer{
+    width:100%;
+    height:20px;
+    background-color: white;
+}
+
+.buttonHolder{
+    width:100%;
+    height:200px;
+    display: block;
+    position: 'relative';
+    text-align: center;
+}
+
+.test{
+    width:250px;
+    height:100px;
+    background-color: brown;
+    text-align: center;
+}
+
+.CheckOutButton{
+    width: 250px;
+    height: 100px;
+    background-color: aqua;
+    cursor: pointer;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    cursor: pointer;
+     
+  }
+  .center2 {
+    margin: auto;
+    width: 50%;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+  }
